@@ -1,0 +1,189 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hoa Sen Gaming</title>
+    <meta name="description" content="University Esports Club profile, news, and socials.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/pilot-command" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="logo/HSG_Ver_B.png">
+    <link rel="shortcut icon" href="logo/HSG_Ver_B.png">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand">
+                <span class="brand-logo" aria-hidden="true"><img src="./logo/HSG_W.png" alt="HSG Logo"></span>
+                <span class="brand-name">Hoa Sen Gaming</span>
+            </div>
+            <div class="lang-toggle" role="group" aria-label="Language selection">
+                <span class="lang-label">EN</span>
+                <label class="switch">
+                    <input type="checkbox" id="lang-switch" role="switch" aria-label="Toggle language">
+                    <span class="slider"></span>
+                </label>
+                <span class="lang-label">VI</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero / Profile -->
+        <section class="hero" id="top">
+            <div class="container hero-inner">
+                <div class="hero-copy">
+                    <h1>About salt?<br>We can get it!</h1>
+                    <p data-i18n="hero.subtitle">We compete, create, and build community across titles like League, Valorant, and Rocket League. Join scrims, events, and tournaments all semester long.</p>
+                    <div class="hero-cta">
+                        <a class="btn primary" href="https://discord.gg/EpsyrmwGVd" data-i18n="hero.join">Join Discord</a>
+                        <a class="btn" href="https://www.facebook.com/HoaSenGaming" data-i18n="hero.readBlog">Facebook</a>
+                    </div>
+                </div>
+                <div class="hero-card">
+                    <div class="club-card">
+                        <h2>Lotus Esports Teams</h2>
+                        <ul>
+                            <li><strong data-i18n="club.teamsLabel">Teams:</strong> Valorant, League of Legends, Teamfight Tactics</li>
+                            <li><strong data-i18n="club.whenLabel">When:</strong> Weekly scrims, Cyber Tournament</li>
+                            <li><strong data-i18n="club.whereLabel">Where:</strong> Esports Training Room | Discord</li>
+                        </ul>
+                        <a class="btn ghost" href="#about" data-i18n="common.learnMore">Register</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section" id="about">
+            <div class="container two-col">
+                <div>
+                    <h3 data-i18n="about.title">About the Club</h3>
+                    <p data-i18n="about.body">We welcome all skill levels—from casual to varsity. Practice with teammates, produce broadcasts, and run campus tournaments. Our leadership team partners with student orgs and sponsors to bring esports to everyone.</p>
+                </div>
+                <div class="stats">
+                    <div class="stat"><span class="num" data-count="20">20+</span><span class="label" data-i18n="stats.membersLabel">Members</span></div>
+                    <div class="stat"><span class="num" data-count="3">3</span><span class="label" data-i18n="stats.teamsLabel">Teams</span></div>
+                    <div class="stat"><span class="num" data-count="14">14</span><span class="label" data-i18n="stats.eventsLabel">Events / yr</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scroll-driven Slideshow / Showcase -->
+        <section class="section showcase" id="showcase">
+            <div class="container">
+                <h3 data-i18n="showcase.title">Highlights</h3>
+                <p class="muted" data-i18n="showcase.muted">Scroll to browse our latest match days, LAN nights, and community events.</p>
+            </div>
+
+            <div class="slideshow" aria-label="scroll-driven image slideshow">
+                <div class="slides sticky">
+                    <img class="slide-img" id="active-slide" src="picture/HSEYL_BTX25.jpg" alt="Esports stage lights and crowd">
+                    <div class="slide-caption" id="active-caption">Match Day • Hoa Sen E-Young League</div>
+                </div>
+
+                <!-- Waypoints that drive the slideshow; replace images/captions as desired -->
+                <div class="slide-waypoint" data-src="picture/PCMasterWork25.jpg" data-caption="Workshop • PC MasterWork 2025"></div>
+                <div class="slide-waypoint" data-src="picture/HobbyHorizon_25.jpg" data-caption="Activiation • Hobby Horizon 2025"></div>
+                <div class="slide-waypoint" data-src="picture/HS_ClubVerse25.jpg" data-caption="Activiation • HSU ClubVerse 2025"></div>
+                <div class="slide-waypoint" data-src="picture/TFT_TechPus.jpg" data-caption="Tournament • Hoa Sen Pan Mini-League 2025"></div>
+            </div>
+        </section>
+
+        <!-- Blog -->
+        <section class="section" id="blog">
+            <div class="container">
+                <h3 data-i18n="blog.title">Blog</h3>
+                <div class="posts">
+                    <article class="post">
+                        <div class="post-thumb" style="background-image:url('https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/557775777_808112845304862_8938658649968041987_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHnZjaImkWsmB9yAgW71Cl9X-FNJOU6Zidf4U0k5TpmJ85VHQo9nYLC6PX_nSEOpjmKlgPxdaL6wl3jph8RT9-7&_nc_ohc=GK9YR3u2LrgQ7kNvwGSvZwT&_nc_oc=Adnkbx144HbS2PMbpbzPXgXU-iBp9aQHa2O5sWW-T9tNjW4rCkLZmxsXP2FUUgvPbY6EHCij3jXv0y-bDH4cy98n&_nc_zt=23&_nc_ht=scontent.fsgn2-7.fna&_nc_gid=o4HJkRgMhArgLyDLlbGjSA&oh=00_Afhy_qJ7pbRy02i-TTsDShbtjP25UxRSUv5036pCpM5lZQ&oe=691546B2');"></div>
+                        <div class="post-body">
+                            <h4>Livestream</h4>
+                            <p>Final - Hoa Sen E-Young League 2025 | Bui Thi Xuan High School.</p>
+                            <a class="link" href="https://www.facebook.com/share/v/1Bfb2QfLbz/">More →</a>
+                        </div>
+                    </article>
+                    <article class="post">
+                        <div class="post-thumb" style="background-image:url('https://scontent.fsgn2-7.fna.fbcdn.net/v/t39.30808-6/559194786_816742331108580_2673049185823460629_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHskA6MQaqf0qgDdzUMcgI2DRnsVcvgPIkNGexVy-A8idyh0rAR4ycrTFLvWEfh7w57sCaA00P_isuXZPfIfwLf&_nc_ohc=ghZXHNXBXb4Q7kNvwGhgJpV&_nc_oc=Adl-Gm2k1ksJ-mzLsc9xXewFDkukbJd4g9RtgSv9cyNXi_FwCyUbdkmW57AT6N6KzKzAnhtNMmFdPKPs1l2SDY7L&_nc_zt=23&_nc_ht=scontent.fsgn2-7.fna&_nc_gid=o4HJkRgMhArgLyDLlbGjSA&oh=00_Afjx4uSm6cDwBxI2Nxvh8V2D8IiZQjpwVnT5ZYWiMJrC1g&oe=6915252D');"></div>
+                        <div class="post-body">
+                            <h4>Notification</h4>
+                            <p>THIS WEEK WILL BE A WEEK OF "BURN" OUT AT BUI THI XUAN!</p>
+                            <a class="link" href="https://www.facebook.com/share/p/17L8PuazQC/">More →</a>
+                        </div>
+                    </article>
+                    <article class="post">
+                        <div class="post-thumb" style="background-image:url('https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/558206718_810779258371554_8292524666589814471_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFamqHtRk4W9DORjeF8v4FGyUsBGZ-S5DrJSwEZn5LkOsBeEx47Vav2C1bR7Bv5WJ6m2QsT-HaSkKxmGUAGCHxf&_nc_ohc=hfXDDVIFRRYQ7kNvwHN5ul4&_nc_oc=AdliUyrhZ7dtmTvn-Y-XLq2xWYagp8aPkd1-AmLr9ryZvCXxhqN6Q2-wqUvddBXmaBT_280fDOnrGG_SrScXiGaT&_nc_zt=23&_nc_ht=scontent.fsgn2-5.fna&_nc_gid=o4HJkRgMhArgLyDLlbGjSA&oh=00_Afhdks-7GRB5HIjGlRDtSZqzhY9Uie_ywmAaQa44lAMWRw&oe=691526D6');"></div>
+                        <div class="post-body">
+                            <h4>Notification</h4>
+                            <p>Open form to apply to be a member of Hoa Sen Gaming!</p>
+                            <a class="link" href="https://www.facebook.com/share/p/1CuxdjNGmG/">More →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sponsors (auto slider) -->
+        <section class="section" id="sponsors">
+            <div class="container">
+                <h3 data-i18n="sponsors.title">Titles Sponsors</h3>
+                <p class="muted" data-i18n="sponsors.muted"> </p>
+
+                <div class="carousel" aria-label="Sponsor logos carousel">
+                    <div class="carousel-track" id="sponsors-track">
+                        <!-- Replace href/src with real sponsor links and logos -->
+                        <a class="carousel-card" href="https://www.intel.vn/content/www/vn/vi/homepage.html" target="_blank" rel="noopener noreferrer">
+                            <div class="card-media" style="background:#0e111a; display:flex; align-items:center; justify-content:center;">
+                                <img src="logo/IntelW.png" alt="Intel" style="max-width:80%; max-height:70%;">
+                            </div>
+                            <div class="card-body">
+                                <strong>Intel</strong>
+                                <span class="muted">Hardware Partner</span>
+                            </div>
+                        </a>
+                        <a class="carousel-card" href="https://www.logitechg.com/vi-vn" target="_blank" rel="noopener noreferrer">
+                            <div class="card-media" style="background:#0e111a; display:flex; align-items:center; justify-content:center;">
+                                <img src="logo/LogitechG_W.png" alt="Logitech" style="max-width:80%; max-height:70%;">
+                            </div>
+                            <div class="card-body">
+                                <strong>Logitech G</strong>
+                                <span class="muted">Gear Partner</span>
+                            </div>
+                        </a>
+                        <a class="carousel-card" href="https://www.sandisk.com/" target="_blank" rel="noopener noreferrer">
+                            <div class="card-media" style="background:#0e111a; display:flex; align-items:center; justify-content:center;">
+                                <img src="logo/SanDisk_W.png" alt="SanDisk" style="max-width:80%; max-height:70%;">
+                            </div>
+                            <div class="card-body">
+                                <strong>SanDisk</strong>
+                                <span class="muted">Storage Partner</span>
+                            </div>
+                        </a>
+                        <a class="carousel-card" href="https://www.viewsonic.com/vn/" target="_blank" rel="noopener noreferrer">
+                            <div class="card-media" style="background:#0e111a; display:flex; align-items:center; justify-content:center;">
+                                <img src="logo/VSG_Horizontal.png" alt="ViewSonic" style="max-width:80%; max-height:70%;">
+                            </div>
+                            <div class="card-body">
+                                <strong>ViewSonic</strong>
+                                <span class="muted">Monitor Partner</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <span>© <span id="year"></span> Hoa Sen Gaming - HSG</span>
+            <a href="#top" class="to-top">Back to top →</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
